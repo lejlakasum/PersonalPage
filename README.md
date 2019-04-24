@@ -1,3 +1,3 @@
 # PersonalPage
 
-Practicing html css, and bootstrap. Page is not finished!
+Practicing html5 css3, and bootstrap. Page is not finished!
