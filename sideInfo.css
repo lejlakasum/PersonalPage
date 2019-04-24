@@ -1,0 +1,110 @@
+#name {
+    color: #C3073F;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#mainContent {
+    background-color: #1a1a1d;
+}
+
+#personalData {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+#logo {
+    height: 2em;
+    width: 2em;
+}
+
+#logo:hover {
+    background-color: #262627;
+}
+
+#personalImage {
+ padding-top: 5em;
+ width: 7em;
+}
+
+@media screen and (max-width: 768px) {
+    #personalImage {
+        padding-top: 8em;
+    }
+}
+
+.personal-data-title {
+    background-color: #1a1a1d;
+    border-radius: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #C3073F;
+    
+}
+
+.personal-data-title:hover {
+    background-color: #262627;
+}
+
+ul {
+  list-style-type: none;  
+}
+.personal-data-content ul li {
+    padding-top: 1em;
+    color: #1a1a1d;
+}
+
+.personal-data-content a {
+    color: #1a1a1d;
+}
+
+.icon {
+    width: 1.3em;
+    margin-right: 2em;
+}
+
+.progress {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    height: 2em;
+}
+
+
+
+#softSkills ul li {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#softSkills ul {
+    padding-left: 0em;
+}
+
+p {
+    color: wheat;
+}
+
+.navbar-custom {
+    
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #C3073F;
+
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #C3073F;
+  
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #C3073F;
+    background-color: #262627; /* add background-color to active links */
+}

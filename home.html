@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lejla Kasum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="sideInfo.css">
+    <link rel="stylesheet" href="circle.css">
+    <link rel="stylesheet" href="mainContent.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container-fluid">
+
+
+        <!--This is top fixed row for name and navigation bar-->
+        <div class="row fixed-top">
+            <div id="name" class=" text-center col-md-3" style="background-color:#1a1a1d">
+                LEJLA KASUM
+                <br>
+                Student
+            </div>
+
+            <div class="col-md-9" style="background-color: #1a1a1d">
+
+                <nav class="navbar navbar-expand-sm navbar-dark navbar-custom">
+
+                    <a class="navbar-brand" href="#"><img id="logo" alt="LOGO" src="Images/logo.png"> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="navBar">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">EDUCATION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">SKILLS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">EXPERIENCE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#interests">INTERESTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--All other content is in this (second) row-->
+        <div class="row">
+            <!--This is first 3 columns (from left to right) and they're taken for personal info-->
+            <div class="col-md-3" style="background-color:#C3073F">
+
+                <div id=" personalData">
+                    <img class="img-fluid rounded-circle mx-auto d-block" id="personalImage" src="Images/personal.jpg"
+                        alt="Personal Photo">
+
+                    <div class="personal-data-title" data-toggle="collapse" data-target="#contact">
+                        CONTACT
+                    </div>
+
+                    <div id="contact" class="personal-data-content collapse">
+                        <ul>
+                            <li><img class="icon" src="Images/tel.png">+387 62 124 269</li>
+                            <li><img class="icon" src="Images/mail.png"><a
+                                    href="mailto:lejla.kasum@live.com">lejla.kasum@live.com</a></li>
+                            <li><img class="icon" src="Images/skype.png"><a
+                                    href="skype:lekac.kasum?userinfo">lekac.kasum</a></li>
+                            <li><img class="icon" src="Images/address.png">Alekse Šantića, 102, Jajce</li>
+                        </ul>
+                    </div>
+
+                    <div class="personal-data-title" data-toggle="collapse" data-target="#social">
+                        SOCIAL NETWORKS
+                    </div>
+
+                    <div id="social" class="personal-data-content collapse">
+                        <ul>
+                            <li><img class="icon" src="Images/in.png"><a
+                                    href="http://www.linkedin.com/in/lejlakasum">lejlakasum</a></li>
+                            <li><img class="icon" src="Images/git.png"><a
+                                    href="https://github.com/lejlakasum">lejlakasum</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="personal-data-title" data-toggle="collapse" data-target="#lang">
+                        LANGUAGES
+                    </div>
+
+                    <div id="lang" class="personal-data-content collapse">
+                        <ul>
+                            <li><img class="icon" src="Images/ba.png">Mother language</li>
+                            <li><img class="icon" src="Images/en.png">B2</li>
+                            <li><img class="icon" src="Images/ger.png">A1</li>
+                        </ul>
+                    </div>
+
+                    <div class="personal-data-title" data-toggle="collapse" data-target="#softSkills">
+                        SOFT SKILLS
+                    </div>
+
+                    <div id="softSkills" class="collapse">
+                        <ul>
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:80%">
+                                        Communication</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:90%">Presentation</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:70%">Critical thinking</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:90%">Leadership</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:70%">Positive attitude</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:80%">Teamwork</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div style="color:white">
+                    WARNING PAGE IS NOT FINISHED
+                </div>
+
+            </div>
+
+            <!-- This is main content. Bellow navigation bar and to right of side(personal)data -->
+            <div class="col-md-9" id="mainContent">
+
+                <div id="about" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+                    <h1>ABOUT</h1>
+                    <p>Lejla is a non-experienced electrical engineering student, passioned about computing since
+                        elementary school. She is an
+                        experienced team worker and project leader, who feels most comfortable in situations she is
+                        familiar with, but also very
+                        capable to deal with unpredictable situations. She does not like raised tones and thinks that
+                        every conflict can be
+                        resolved in a peaceful way. Lejla is a positive person who wants to use her soft and
+                        professional skills to make the
+                        world a better place to live.</p>
+                </div>
+                <div id="education" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+                    <h1>EDUCATION</h1>
+                    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                        was born and I will give
+                        you a complete account of the system, and expound the actual teachings of the great explorer of
+                        the truth, the
+                        master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because
+                        it is pleasure, but
+                        because those who do not know how to pursue pleasure rationally encounter consequences that are
+                        extremely painful. Nor
+                        again is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                        pain, but because
+                        occasionally circumstances occur in which toil and pain can procure him some great pleasure. To
+                        take a trivial example,
+                        which of us ever undertakes laborious physical exercise, except to obtain some advantage from
+                        it? But who has any right
+                        to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or
+                        one who avoids a pain
+                        that produces no resultant pleasure?"</p>
+                </div>
+
+                <div id="skills" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+                    <h1>SKILLS</h1>
+
+                    <div class="c100 p37 blue">
+                        <span><img style="width:2em;" src="Images/cpp.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="c100 p50 blueviolet">
+                        <span><img style="width:3.5em;" src="Images/csharp.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="c100 p50 green">
+                        <span><img style="width:3em;" src="Images/andjava.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 blue">
+                        <span><img style="width:2.5em;" src="Images/c.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 blueviolet">
+                        <span><img style="width:2em;" src="Images/dotnet.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 blue">
+                        <span><img style="width:2.5em;" src="Images/css.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 orange">
+                        <span><img style="width:2.5em;" src="Images/html.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 yellow">
+                        <span><img style="width:2em;" src="Images/javascript.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 orange">
+                        <span><img style="width:2em;" src="Images/msoffice.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 green">
+                        <span><img style="width:2.5em;" src="Images/nodejs.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 blue">
+                        <span><img style="width:2.5em;" src="Images/sql.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="c100 p50 blueviolet">
+                        <span><img style="width:2em;" src="Images/bootstrap.png"></span>
+                        <div class=" slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <br><br><br><br><br><br><br><br>
+                <div id="experience" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+                    <h1>EXPERIENCE</h1>
+                    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                        was born and I will give
+                        you a complete account of the system, and expound the actual teachings of the great explorer of
+                        the truth, the
+                        master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because
+                        it is pleasure, but
+                        because those who do not know how to pursue pleasure rationally encounter consequences that are
+                        extremely painful. Nor
+                        again is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                        pain, but because
+                        occasionally circumstances occur in which toil and pain can procure him some great pleasure. To
+                        take a trivial example,
+                        which of us ever undertakes laborious physical exercise, except to obtain some advantage from
+                        it? But who has any right
+                        to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or
+                        one who avoids a pain
+                        that produces no resultant pleasure?"</p>
+
+                </div>
+                <div id="interests" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+                    <h1>INTERESTS</h1>
+                    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                        was born and I will give
+                        you a complete account of the system, and expound the actual teachings of the great explorer of
+                        the truth, the
+                        master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because
+                        it is pleasure, but
+                        because those who do not know how to pursue pleasure rationally encounter consequences that are
+                        extremely painful. Nor
+                        again is there anyone who loves or pursues or desires to obtain pain of itself, because it is
+                        pain, but because
+                        occasionally circumstances occur in which toil and pain can procure him some great pleasure. To
+                        take a trivial example,
+                        which of us ever undertakes laborious physical exercise, except to obtain some advantage from
+                        it? But who has any right
+                        to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or
+                        one who avoids a pain
+                        that produces no resultant pleasure?"</p>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
